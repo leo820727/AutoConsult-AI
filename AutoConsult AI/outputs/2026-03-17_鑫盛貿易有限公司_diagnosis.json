@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "company_name": "鑫盛貿易有限公司",
+    "industry": "B2B 工業零配件貿易",
+    "analysis_timestamp": "2026-03-17T10:00:00+08:00",
+    "analyzer_version": "1.0",
+    "overall_health_score": 60,
+    "overall_health_label": "Needs Improvement",
+    "executive_summary": "The company faces challenges in sales funnel management, customer retention, and data integration. With a current conversion rate of 15%, there is room for improvement. The company lacks a systematic approach to tracking customer interactions and follow-ups, leading to potential revenue leaks. Implementing a CRM system and automating sales processes can help address these issues and improve overall business health."
+  },
+  "sales_funnel_gaps": {
+    "current_conversion_rate_percent": 15.0,
+    "benchmark_conversion_rate_percent": 25.0,
+    "conversion_gap_percent": 10.0,
+    "top_gaps": [
+      {
+        "rank": 1,
+        "stage": "報價後跟進",
+        "gap_description": "缺乏系統化的後續追蹤 SOP",
+        "evidence": "訪談紀錄：『我們現在比較缺的就是這塊。說真的，流程不太統一。』",
+        "severity": "High",
+        "recommended_action": "Implement a CRM system to track customer interactions and automate follow-ups"
+      },
+      {
+        "rank": 2,
+        "stage": "客戶報價",
+        "gap_description": "報價流程全靠業務手動計算，常出現錯誤或報價不一致的情況",
+        "evidence": "訪談紀錄：『報價流程全靠業務手動計算，常出現錯誤或報價不一致的情況』",
+        "severity": "Medium",
+        "recommended_action": "Automate the quoting process using a CRM system"
+      },
+      {
+        "rank": 3,
+        "stage": "客戶保留",
+        "gap_description": "缺乏客戶健康度評分機制，流失客戶通常在離開後才被察覺",
+        "evidence": "訪談紀錄：『我們沒有很精準的數字，但粗估大概一年會流失掉 15% 到 20% 的客戶。』",
+        "severity": "Medium",
+        "recommended_action": "Implement a customer health score system to identify at-risk customers"
+      }
+    ],
+    "estimated_monthly_revenue_leak_twd": 150000
+  },
+  "marketing_automation": {
+    "overall_maturity_score": 1.5,
+    "maturity_label": "Basic",
+    "sub_scores": {
+      "lead_capture": 0.5,
+      "lead_nurturing": 1.0,
+      "quoting_process": 1.0,
+      "follow_up": 0.5,
+      "reporting": 0.5
+    },
+    "top_opportunities": [
+      {
+        "area": "業務追蹤提醒",
+        "current_state": "無系統化的追蹤機制",
+        "recommended_tool_type": "CRM 系統",
+        "estimated_weekly_time_savings_hours": 10.0,
+        "implementation_complexity": "Medium"
+      },
+      {
+        "area": "資料整合",
+        "current_state": "客戶資料散落在 Excel、LINE 群組、Email 三個地方",
+        "recommended_tool_type": "CRM 系統",
+        "estimated_weekly_time_savings_hours": 5.0,
+        "implementation_complexity": "Low"
+      }
+    ]
+  },
+  "product_differentiation": {
+    "commoditization_risk": "Medium",
+    "current_strategy_assessment": "缺乏明確的差異化策略",
+    "messaging_consistency_score": 60,
+    "untapped_angles": [
+      "強調代理品牌的品質和可靠性"
+    ],
+    "recommendations": [
+      "發展明確的差異化策略",
+      "強調代理品牌的品質和可靠性"
+    ]
+  },
+  "objection_analysis": {
+    "objections": [
+      {
+        "objection_text": "你們太貴了",
+        "type": "Price",
+        "current_rebuttal_effectiveness": "Weak",
+        "recommended_rebuttal_en": "Our products offer higher quality and reliability, resulting in lower total cost of ownership. We can provide case studies to demonstrate this.",
+        "training_priority": "High"
+      },
+      {
+        "objection_text": "我要考慮一下",
+        "type": "Timeline",
+        "current_rebuttal_effectiveness": "Moderate",
+        "recommended_rebuttal_en": "I understand that you need time to consider. Can I schedule a follow-up call to discuss further and answer any questions you may have?",
+        "training_priority": "Medium"
+      }
+    ],
+    "highest_priority_training_area": "Price objection handling"
+  },
+  "roi_projection": {
+    "baseline": {
+      "monthly_leads": 80,
+      "close_rate_percent": 15.0,
+      "monthly_deals_closed": 12,
+      "monthly_revenue_twd": 1440000
+    },
+    "target": {
+      "monthly_leads": 100,
+      "close_rate_percent": 25.0,
+      "monthly_deals_closed": 25,
+      "monthly_revenue_twd": 3000000
+    },
+    "incremental_annual_revenue_twd": 21600000,
+    "estimated_implementation_cost_min_twd": 200000,
+    "estimated_implementation_cost_max_twd": 500000,
+    "payback_period_months": 6.0,
+    "confidence_level": "Medium",
+    "confidence_rationale": "Based on the company's current sales performance and the potential impact of implementing a CRM system and automating sales processes, we estimate a moderate level of confidence in achieving the target revenue growth."
+  }
+}

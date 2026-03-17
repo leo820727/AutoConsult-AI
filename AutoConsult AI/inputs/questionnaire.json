@@ -1,0 +1,75 @@
+{
+  "client_profile": {
+    "company_name": "鑫盛貿易有限公司",
+    "industry": "B2B 工業零配件貿易",
+    "founded_year": 2015,
+    "headcount": 28,
+    "annual_revenue_twd": 45000000,
+    "business_model": "代理商 + 直銷"
+  },
+  "business_scale": {
+    "monthly_leads": 80,
+    "monthly_closed_deals": 12,
+    "average_deal_size_twd": 120000,
+    "sales_cycle_days": 45,
+    "current_customers": 95,
+    "churn_rate_percent": 18,
+    "top_3_revenue_sources": [
+      "機械零件代理（佔 55%）",
+      "客製化零件加工轉包（佔 30%）",
+      "設備維修耗材（佔 15%）"
+    ]
+  },
+  "business_goals": {
+    "short_term_6_months": [
+      "將每月成交率從 15% 提升至 25%",
+      "縮短銷售週期至 30 天以內",
+      "建立客戶複購機制，降低流失率至 10%"
+    ],
+    "long_term_12_months": [
+      "年營收突破 7,000 萬新台幣",
+      "拓展東南亞出口業務（越南、泰國）",
+      "導入 CRM 系統實現銷售流程自動化"
+    ]
+  },
+  "pain_points": [
+    {
+      "category": "銷售漏斗",
+      "severity": "高",
+      "description": "業務人員跟進方式不一致，導致大量潛在客戶在報價後沉默，缺乏系統化的後續追蹤 SOP。"
+    },
+    {
+      "category": "客戶開發",
+      "severity": "高",
+      "description": "目前九成客戶來自口碑介紹，缺乏穩定的線上獲客渠道，業務量受季節性影響波動劇烈。"
+    },
+    {
+      "category": "報價與議價",
+      "severity": "中",
+      "description": "報價流程全靠業務手動計算，常出現錯誤或報價不一致的情況，導致客戶信任度下降。"
+    },
+    {
+      "category": "客戶保留",
+      "severity": "中",
+      "description": "缺乏客戶健康度評分機制，流失客戶通常在離開後才被察覺，無法提前干預。"
+    },
+    {
+      "category": "資料管理",
+      "severity": "低",
+      "description": "客戶資料散落在 Excel、LINE 群組、Email 三個地方，無法統一查詢歷史交易紀錄。"
+    }
+  ],
+  "current_tools": {
+    "crm": "無（使用 Excel 自製追蹤表）",
+    "communication": "LINE Business + Email",
+    "erp": "鼎新 ERP（僅用於請款開發票）",
+    "marketing": "無系統化行銷工具"
+  },
+  "budget_for_improvement_twd": 500000,
+  "decision_maker": {
+    "name": "陳志誠",
+    "title": "業務總監",
+    "decision_timeline_weeks": 4
+  },
+  "questionnaire_submitted_at": "2026-03-17T10:00:00+08:00"
+}
